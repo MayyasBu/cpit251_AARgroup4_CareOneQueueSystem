@@ -15,7 +15,7 @@ public class Cpit251_AARgroup4_CareOne {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("new github, first commit by mayyas");
+        System.out.print("new github, first commit by mayyas22");
     }
     
 }
