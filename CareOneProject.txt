@@ -1,0 +1,19 @@
+Customer Ahmed_AlZahrani added.
+Customer Fatima_Mohammed added.
+Customer Khalid_AlHarbi added.
+Customer Omar_AlZahrani added.
+car added to Khalid_AlHarbi profile successfully.
+car added to Khalid_AlHarbi profile successfully.
+car added to Omar_AlZahrani profile successfully.
+car added to Fatima_Mohammed profile successfully.
+car added to Omar_AlZahrani profile successfully.
+testing
+Ahmed_AlZahrani
+[]
+Fatima_Mohammed
+[Car Brand=Chevrolet, Model=Suburban, Size=Full-size, Type=Crossover]
+Khalid_AlHarbi
+[Car Brand=Toyota, Model=RAV4, Size=Compact, Type=Crossover, Car Brand=Honda, Model=Civic, Size=Compact, Type=Hatchback]
+Omar_AlZahrani
+[Car Brand=Ford, Model=Mustang, Size=Mid-size, Type=Coupe, Car Brand=Kia, Model=Carnival, Size=Full-size, Type=Van]
+
