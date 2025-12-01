@@ -17,5 +17,8 @@ public class customer {
     public void addCarToCustomer(car car){
     if(car.getOwnerPhone().equals(this.cusPhone))
         this.cars.add(car);}
+    public void deleteCustomerCar(car car){
+    if(car.getOwnerPhone().equals(this.cusPhone))
+        this.cars.remove(car);}
 }
 
