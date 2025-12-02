@@ -1,9 +1,0 @@
-add_customer Ahmed_AlZahrani 0501234567
-add_customer Fatima_Mohammed 0549876543
-add_customer Khalid_AlHarbi 0587654321
-add_customer Omar_AlZahrani 0568765432
-add_car Toyota RAV4 Compact Crossover 0587654321
-add_car Honda Civic Compact Hatchback 0587654321
-add_car Ford Mustang Mid-size Coupe 0568765432
-add_car Chevrolet Suburban Full-size Crossover 0549876543
-add_car Kia Carnival Full-size Van 0568765432
