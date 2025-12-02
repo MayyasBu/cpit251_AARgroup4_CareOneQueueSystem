@@ -1,0 +1,13 @@
+Customer added: Danyah (0501234567)
+Car added to customer 0501234567: Toyota Corolla (Small, Sedan)
+Booking created. BookingID=1
+BookingID: 1
+Customer: Danyah (0501234567)
+Car: Toyota Corolla (Small, Sedan)
+Service: Basic Wash (20.0 SR)
+Date: 2025-12-05 Time: 10:30
+Amount: 20.0 SR
+Status: In Queue
+Status for booking 1: In Queue
+Booking 1 updated to Washing
+Status for booking 1: Washing

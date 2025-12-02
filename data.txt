@@ -1,0 +1,7 @@
+add_customer Danyah 0501234567
+add_car Toyota Corolla Small Sedan 0501234567
+book_appointment 0501234567 Toyota Corolla Small Sedan 1 2025-12-05 10:30
+display_confirmation 1
+status_report 0501234567 1
+update_status 1 WASHING
+status_report 0501234567 1
