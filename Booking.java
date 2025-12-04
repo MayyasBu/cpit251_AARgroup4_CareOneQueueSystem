@@ -2,23 +2,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.cpit251_aargroup4_careonequeuesystem;
+package com.mycompany.careonecarui_group4;
 
-import java.time.LocalDate;
+/**
+ *
+ * @author Acer
+ */
 import java.time.LocalTime;
+import java.time.LocalDate;
 
-// Booking class stores booking details: customer, car, service, date/time, amount, and status
 public class Booking {
     private final int bookingID;
-    private final Customer customer;
-    private final Car car;
-    private final Service service;
+    private final customer customer;
+    private final car car;
+    private final service service;
     private final LocalDate date;
     private final LocalTime time;
     private final double amount;
-    private Status status;
-
-    public Booking(int bookingID, Customer customer, Car car, Service service,
+    private status statu;
+    
+    
+   public Booking(int bookingID, customer customer, car car, service service,
                    LocalDate date, LocalTime time) {
         this.bookingID = bookingID;
         this.customer = customer;
@@ -27,27 +31,22 @@ public class Booking {
         this.date = date;
         this.time = time;
         this.amount = calculateAmount();
-        this.status = new Status(Status.State.IN_QUEUE);
-    }
+        this.statu = new status(status.State.IN_QUEUE); }
 
-    // Price calculation based on service
+
     private double calculateAmount() {
-        return service.getPrice();
-    }
+        return service.getPrice(); }
 
-    //Getters
     public int getBookingID() { return bookingID; }
-    public Customer getCustomer() { return customer; }
-    public Car getCar() { return car; }
-    public Service getService() { return service; }
+    public customer getCustomer() { return customer; }
+    public car getCar() { return car; }
+    public service getService() { return service; }
     public LocalDate getDate() { return date; }
     public LocalTime getTime() { return time; }
     public double getAmount() { return amount; }
-    public Status getStatus() { return status; }
-    //setter
-    public void setStatus(Status.State s) { this.status.setState(s); }
+    public status getStatus() { return statu; }
+    public void setStatus(status.State s) { this.statu.setState(s); }
 
-    // String that generate confirmation summary
     public String getSummary() {
         return "BookingID: " + bookingID +
                "\nCustomer: " + customer.getFullName() + " (" + customer.getCustomerPhone() + ")" +
@@ -55,6 +54,5 @@ public class Booking {
                "\nService: " + service.getServiceName() + " (" + service.getPrice() + " SR)" +
                "\nDate: " + date + " Time: " + time +
                "\nAmount: " + amount + " SR" +
-               "\nStatus: " + status.toString();
-    }
-}
+               "\nStatus: " + statu.toString(); }
+                                                                                          }
